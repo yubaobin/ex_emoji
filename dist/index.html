@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><title>emoji</title><link href=./static/css/app.0b8c7ef1c035636f8547649b4dca3e22.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.556724fb90d43fbb6343.js></script><script type=text/javascript src=./static/js/vendor.871871e2c0bb0736842e.js></script><script type=text/javascript src=./static/js/app.0e7b943cae0a8accd5b1.js></script></body><script type=text/javascript>/**
+   * 简单响应
+   */
+   function rem (){
+      const PSDWIDTH = 320;
+      const DIVIDE = 20;
+      const doc_width = document.documentElement.getBoundingClientRect().width;
+      document.documentElement.style.fontSize = DIVIDE / PSDWIDTH * doc_width + "px" ;
+   }
+  	(function(){
+      rem();
+  		window.onresize = function(){
+        rem();
+      }
+  	})(window);</script></html>
